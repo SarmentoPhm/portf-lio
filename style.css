@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+body{
+    background-color: rgb(18, 22, 19);
+    color: #1E8F09;
+    margin: none;
+    
+}
+
+@font-face {
+    font-family: 'Start';
+    src: url(PressStart2P-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+    height: 33vh;
+    margin: none;
+    background-color: rgb(18, 22, 19);
+    box-shadow: 0px 5px 15px rgba(42, 253, 0, 0.63);
+    font-family: Start;
+}
+
+.desenv{
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+}
+
+main {
+    width: 100vw;
+    height: 250vh;
+    display: flex;
+    font-family: Start;
+    flex-direction: column;
+}
+
+.main-f {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 16pt;
+    padding: -15px;
+}
+
+h2 {
+    font-size: 14pt;
+    padding: -15px;
+}
+
+.left-main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    font-family: Start;
+}
+
+
+.gitgit {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.linked {
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+.projetos {
+    width: 100vw;
+    height: 150vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projetos > img {
+    width: 20vw;
+    height: 20vh;
+    padding: 20px;
+           
+}
+
+.projetos-q > img {
+    width: 20vw;
+    height: 20vh;
+    padding: 3px;
+    border: 3px solid rgb(24, 23, 23);
+    background-color: rgb(24, 23, 23);
+    box-shadow: 0px 5px 15px rgba(42, 253, 0, 0.63);
+                
+}
+
+.projetos-q > img:hover {
+    -webkit-transform: scale(1.5);
+}
+
+.git {
+    padding: 20px;
+}
+
+.linkedin {
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(18, 22, 19);
+    box-shadow: 0px -5px 15px rgba(42, 253, 0, 0.63);
+    
+}
+
+.footer-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-itens > p {
+    font-size: 14pt;
+}
+
+.footer-itens > h3 {
+    font-size: 16pt;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;                      
+}
+
+li {
+    padding: 10px;
+    justify-content: space-between; 
+}
+
+.list-header {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 13pt;
+}
+
+a {
+    text-decoration: none;
+    color: #1E8F09;
+    text-shadow: 1px 1px 10px #88ee76a4;
+}
